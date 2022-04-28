@@ -1,0 +1,353 @@
+﻿D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277: 发现无法解析的“System”的不同版本之间存在冲突。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277: “System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”与“System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”之间存在冲突。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:     已选择“System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”，因为它是主版本而“System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”不是。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:     依赖于“System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”[C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll]的引用。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:         C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:           导致引用“C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll”的项目文件项 Include 特性。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:             System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:     依赖于“System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll]的引用。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:         F:\Share\CallMesTest\CallTest\MesDLL\IMSDLL.dll
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:           导致引用“F:\Share\CallMesTest\CallTest\MesDLL\IMSDLL.dll”的项目文件项 Include 特性。
+D:\Develop\Microsoft\VisualStudio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2304,5): warning MSB3277:             IMSDLL
+  stdafx.cpp
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : warning C4945: “SemaphoreFullException”: 无法从“c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll”导入符号: 因为“System::Threading::SemaphoreFullException”已从另一个程序集“mscorlib”导入
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : message : 在导入类型“System.Threading.SemaphoreFullException”(从程序集“System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”中导入)时发生此诊断。
+  AssemblyInfo.cpp
+G:\CallMesTest\CallTest\CallTest\AssemblyInfo.cpp(40,29): warning C4947: “System::Security::Permissions::SecurityAction::RequestMinimum”: 标记为已过时
+G:\CallMesTest\CallTest\CallTest\AssemblyInfo.cpp(40,29): message : 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+  CallMesTest.cpp
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WcfChannelFactory”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“WcfChannelFactory”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“.WcfChannelFactory”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “CommonData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::CommonData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.CommonData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IssueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::IssueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.IssueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_ReturnData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_ReturnData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_ReturnData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMSinterface”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMSinterface”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMSinterface”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MESFUNCTION”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MESFUNCTION”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MESFUNCTION”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step2”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step2”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step2”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step3”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step3”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step3”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step4”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step4”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step4”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_KIDODATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_KIDODATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_KIDODATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToKidoData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToKidoData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToKidoData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MSNData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MSNData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MSNData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “LoginInfo”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::LoginInfo”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.LoginInfo”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToTDData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToTDData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToTDData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ModelSet”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ModelSet”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ModelSet”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ReqItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ReqItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ReqItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WriteValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::WriteValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.WriteValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IniFile”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IniFile”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IniFile”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “Serialization”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Serialization”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Serialization”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LD”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LD”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LD”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LDChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LDChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LDChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_LDClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::MES_TO_LDClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.MES_TO_LDClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOL”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOL”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOLChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOLChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOLChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_TOOLClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::MES_TO_TOOLClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.MES_TO_TOOLClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+G:\CallMesTest\CallTest\CallTest\CallMesTest.cpp(35,9): warning C4102: “Exit_Run”: 未引用的标签
+  CallTest.cpp
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WcfChannelFactory”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“WcfChannelFactory”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“.WcfChannelFactory”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “CommonData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::CommonData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.CommonData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IssueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::IssueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.IssueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_ReturnData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_ReturnData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_ReturnData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMSinterface”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMSinterface”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMSinterface”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MESFUNCTION”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MESFUNCTION”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MESFUNCTION”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step2”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step2”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step2”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step3”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step3”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step3”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step4”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step4”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step4”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_KIDODATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_KIDODATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_KIDODATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToKidoData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToKidoData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToKidoData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MSNData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MSNData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MSNData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “LoginInfo”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::LoginInfo”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.LoginInfo”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToTDData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToTDData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToTDData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ModelSet”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ModelSet”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ModelSet”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ReqItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ReqItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ReqItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WriteValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::WriteValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.WriteValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IniFile”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IniFile”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IniFile”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “Serialization”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Serialization”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Serialization”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LD”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LD”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LD”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LDChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LDChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LDChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_LDClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::MES_TO_LDClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.MES_TO_LDClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOL”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOL”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOLChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOLChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOLChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_TOOLClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::MES_TO_TOOLClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.MES_TO_TOOLClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  Mes.cpp
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WcfChannelFactory”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“WcfChannelFactory”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“.WcfChannelFactory”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “CommonData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::CommonData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.CommonData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IssueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“BOE_Tool_Test::IssueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“BOE_Tool_Test.IssueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_ReturnData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_ReturnData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_ReturnData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMSinterface”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMSinterface”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMSinterface”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MESFUNCTION”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MESFUNCTION”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MESFUNCTION”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_IN_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_IN_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_IN_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_COMMON_OUT_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_COMMON_OUT_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_COMMON_OUT_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_IN_Step2”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_IN_Step2”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_IN_Step2”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step3”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step3”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step3”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_DATA_OUT_Step4”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_DATA_OUT_Step4”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_DATA_OUT_Step4”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_KIDODATA_IN_Step1”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_KIDODATA_IN_Step1”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_KIDODATA_IN_Step1”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToKidoData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToKidoData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToKidoData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_Request_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_Request_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_Request_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MSNData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::MSNData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.MSNData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ETM_Laser_TrackOut_Return”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ETM_Laser_TrackOut_Return”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ETM_Laser_TrackOut_Return”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “LoginInfo”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::LoginInfo”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.LoginInfo”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “BOE_MesToTDData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::BOE_MesToTDData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.BOE_MesToTDData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ModelSet”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ModelSet”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ModelSet”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “ReqItemData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::ReqItemData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.ReqItemData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “WriteValueData”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::WriteValueData”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.WriteValueData”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IniFile”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IniFile”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IniFile”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “Serialization”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Serialization”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Serialization”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LD”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LD”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LD”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_LDChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::IMES_TO_LDChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.IMES_TO_LDChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_LDClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::Tool_Laser::MES_TO_LDClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.Tool_Laser.MES_TO_LDClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOL”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOL”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “IMES_TO_TOOLChannel”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::IMES_TO_TOOLChannel”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.IMES_TO_TOOLChannel”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+g:\callmestest\calltest\mesdll\imsdll.dll : warning C4945: “MES_TO_TOOLClient”: 无法从“g:\callmestest\calltest\mesdll\imsdll.dll”导入符号: 因为“IMSDLL::IMES_TO_TOOL::MES_TO_TOOLClient”已从另一个程序集“IMSDLL”导入
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+g:\callmestest\calltest\mesdll\imsdll.dll : message : 在导入类型“IMSDLL.IMES_TO_TOOL.MES_TO_TOOLClient”(从程序集“IMSDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  正在生成代码...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : warning C4945: “SemaphoreFullException”: 无法从“c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll”导入符号: 因为“System::Threading::SemaphoreFullException”已从另一个程序集“mscorlib”导入
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : message : 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+c:\windows\assembly\gac_msil\system\2.0.0.0__b77a5c561934e089\system.dll : message : 在导入类型“System.Threading.SemaphoreFullException”(从程序集“System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”中导入)时发生此诊断。
+  AssemblyInfo.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+  CallTest.vcxproj -> G:\CallMesTest\CallMes\Debug\CallTest.exe

@@ -1,0 +1,6 @@
+G:\CallMesTest\CallMes\MesDLL\bin\Debug\MesDLL.dll
+G:\CallMesTest\CallMes\MesDLL\bin\Debug\MesDLL.pdb
+G:\CallMesTest\CallMes\MesDLL\obj\Debug\MesDLL.csproj.CoreCompileInputs.cache
+G:\CallMesTest\CallMes\MesDLL\obj\Debug\MesDLL.dll
+G:\CallMesTest\CallMes\MesDLL\obj\Debug\MesDLL.pdb
+G:\CallMesTest\CallMes\MesDLL\obj\Debug\MesDLL.csproj.AssemblyReference.cache

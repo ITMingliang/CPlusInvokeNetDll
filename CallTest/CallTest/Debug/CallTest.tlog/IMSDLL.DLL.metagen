@@ -1,0 +1,1027 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly IMSDLL, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.LabelManager2, Version=6.0.*, Culture=固定语言(固定国家/地区): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WcfChannelFactory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CreateWCFServiceByURL(String): PrivateScope, Public, Static, HideBySig
+    CreateWCFServiceByURL(String, String): PrivateScope, Public, Static, HideBySig
+Class BOE_Tool_Test.CommonData: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Collections.Generic.List`1[BOE_Tool_Test.IssueData] lstItemData : Public, Static
+Class BOE_Tool_Test.IssueData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Code 'get set' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Code(): PrivateScope, Public, HideBySig, SpecialName
+    set_Code(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_ReturnData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String IMEI1 'get set' : 
+    System.String IMEI2 'get set' : 
+    System.String MSN 'get set' : 
+    System.String BTMac 'get set' : 
+    System.String MEID 'get set' : 
+    System.String WifiMac1 'get set' : 
+    System.String WifiMac2 'get set' : 
+    System.String HARD_CODE 'get set' : 
+    System.String QR_CODE 'get set' : 
+    System.String TOKEN 'get set' : 
+    System.String EID 'get set' : 
+    System.String VER 'get set' : 
+    System.String Memory 'get set' : 
+    System.String SoftWare 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI1(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI2(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BTMac(): PrivateScope, Public, HideBySig, SpecialName
+    set_BTMac(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MEID(): PrivateScope, Public, HideBySig, SpecialName
+    set_MEID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac1(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac2(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HARD_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_HARD_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_QR_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_QR_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOKEN(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOKEN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EID(): PrivateScope, Public, HideBySig, SpecialName
+    set_EID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_VER(): PrivateScope, Public, HideBySig, SpecialName
+    set_VER(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Memory(): PrivateScope, Public, HideBySig, SpecialName
+    set_Memory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SoftWare(): PrivateScope, Public, HideBySig, SpecialName
+    set_SoftWare(String): PrivateScope, Public, HideBySig, SpecialName
+Interface IMSDLL.IMSinterface: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    BOE_GetData(String, String&, String&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_SubmitResult(String, Boolean, String&, String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCommonData(String, String&, String&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SubmitCommonData(String, Boolean, String, String, String&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class IMSDLL.MESFUNCTION: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    IMSDLL.IMSinterface
+  Methods:
+    BOE_ChaiHeLabel_Request(String, ETM_Laser_Request_Return&, String&): PrivateScope, Public, HideBySig
+    BOE_ChaiHeLabel_TrackOut(ETM_Laser_TrackOut, ETM_Laser_TrackOut_Return&, String&): PrivateScope, Public, HideBySig
+    GetCommonData(String, String&, String&): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SubmitCommonData(String, Boolean, String, String, String&): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_GetData(String, String&, String&): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_SubmitResult(String, Boolean, String&, String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetInCommonData(String, String&, String&): PrivateScope, Public, HideBySig
+    SubmitInCommonData(String, Boolean, String, String, String&): PrivateScope, Public, HideBySig
+    GetInData(String, String&, String&): PrivateScope, Public, HideBySig
+    GetIn_KidoData(String, String&, String&): PrivateScope, Public, HideBySig
+    SubmitInData(String, Boolean, String, String, String&): PrivateScope, Public, HideBySig
+    Boe_LoginInfo(String&): PrivateScope, Public, HideBySig
+    WriteLog(String): PrivateScope, Public, Static, HideBySig
+    BOE_SoftCodePrint(String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+Class IMSDLL.BOE_COMMON_IN: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String INT_TYPE 'get set' : 
+    System.String TOOLID 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    System.String SN 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String OPID 'get set' : 
+    System.String APName 'get set' : 
+    System.String APVersion 'get set' : 
+    System.String DateTime 'get set' : 
+  Methods:
+    get_INT_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_INT_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOOLID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOOLID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APName(): PrivateScope, Public, HideBySig, SpecialName
+    set_APName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_APVersion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_COMMON_IN_Return: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String Fail_Msg 'get set' : 
+    System.String SW_Version 'get set' : 
+    System.String WO 'get set' : 
+    System.String Model 'get set' : 
+    System.String RAM 'get set' : 
+    System.String EMMC 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String DateTime 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Fail_Msg(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fail_Msg(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SW_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_SW_Version(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WO(): PrivateScope, Public, HideBySig, SpecialName
+    set_WO(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Model(): PrivateScope, Public, HideBySig, SpecialName
+    set_Model(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RAM(): PrivateScope, Public, HideBySig, SpecialName
+    set_RAM(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EMMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_EMMC(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_COMMON_OUT: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String INT_TYPE 'get set' : 
+    System.String TOOLID 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    System.String SN 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String OPID 'get set' : 
+    System.String ERROR_CODE 'get set' : 
+    System.String ERROR_MSG 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String OPTION3 'get set' : 
+    System.String OPTION4 'get set' : 
+    System.String OPTION5 'get set' : 
+    System.String DateTime 'get set' : 
+  Methods:
+    get_INT_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_INT_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOOLID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOOLID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ERROR_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_ERROR_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ERROR_MSG(): PrivateScope, Public, HideBySig, SpecialName
+    set_ERROR_MSG(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION3(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION3(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION4(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION4(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION5(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION5(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_COMMON_OUT_Return: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String Fail_Msg 'get set' : 
+    System.String RETEST_TIMES 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String DateTime 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Fail_Msg(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fail_Msg(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RETEST_TIMES(): PrivateScope, Public, HideBySig, SpecialName
+    set_RETEST_TIMES(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_DATA_IN_Step1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String INT_TYPE 'get set' : 
+    System.String TOOLID 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    System.String SN 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String OPID 'get set' : 
+    System.String APName 'get set' : 
+    System.String APVersion 'get set' : 
+    System.String IMEI 'get set' : 
+    System.String MSN 'get set' : 
+    System.String BMAC 'get set' : 
+    System.String WMAC 'get set' : 
+    System.String MEID 'get set' : 
+    System.String IMEI_QTY 'get set' : 
+    System.String MEID_QTY 'get set' : 
+    System.String WFMAC_QTY 'get set' : 
+    System.String BTMAC_QTY 'get set' : 
+    System.String MSN_QTY 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String OPTION3 'get set' : 
+    System.String OPTION4 'get set' : 
+    System.String OPTION5 'get set' : 
+    System.String OPTION6 'get set' : 
+    System.String OPTION7 'get set' : 
+    System.String OPTION8 'get set' : 
+    System.String TDATETIME 'get set' : 
+  Methods:
+    get_INT_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_INT_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOOLID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOOLID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APName(): PrivateScope, Public, HideBySig, SpecialName
+    set_APName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_APVersion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BMAC(): PrivateScope, Public, HideBySig, SpecialName
+    set_BMAC(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WMAC(): PrivateScope, Public, HideBySig, SpecialName
+    set_WMAC(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MEID(): PrivateScope, Public, HideBySig, SpecialName
+    set_MEID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI_QTY(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI_QTY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MEID_QTY(): PrivateScope, Public, HideBySig, SpecialName
+    set_MEID_QTY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WFMAC_QTY(): PrivateScope, Public, HideBySig, SpecialName
+    set_WFMAC_QTY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BTMAC_QTY(): PrivateScope, Public, HideBySig, SpecialName
+    set_BTMAC_QTY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN_QTY(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN_QTY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION3(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION3(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION4(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION4(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION5(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION5(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION6(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION6(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION7(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION7(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION8(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION8(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TDATETIME(): PrivateScope, Public, HideBySig, SpecialName
+    set_TDATETIME(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_DATA_IN_Step2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String Fail_Msg 'get set' : 
+    System.String SW_Version 'get set' : 
+    System.String WO 'get set' : 
+    System.String Model 'get set' : 
+    System.String MSN 'get set' : 
+    System.String RAM 'get set' : 
+    System.String EMMC 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String OPTION3 'get set' : 
+    System.String OPTION4 'get set' : 
+    System.String OPTION5 'get set' : 
+    System.String OPTION6 'get set' : 
+    System.String OPTION7 'get set' : 
+    System.String OPTION8 'get set' : 
+    System.String TDATETIME 'get set' : 
+    System.Collections.Generic.List`1[IMSDLL.ItemData] ITEMlIST 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Fail_Msg(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fail_Msg(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SW_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_SW_Version(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WO(): PrivateScope, Public, HideBySig, SpecialName
+    set_WO(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Model(): PrivateScope, Public, HideBySig, SpecialName
+    set_Model(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RAM(): PrivateScope, Public, HideBySig, SpecialName
+    set_RAM(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EMMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_EMMC(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION3(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION3(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION4(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION4(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION5(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION5(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION6(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION6(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION7(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION7(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION8(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION8(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TDATETIME(): PrivateScope, Public, HideBySig, SpecialName
+    set_TDATETIME(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ITEMlIST(): PrivateScope, Public, HideBySig, SpecialName
+    set_ITEMlIST(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_DATA_OUT_Step3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String INT_TYPE 'get set' : 
+    System.String TOOLID 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    System.String SN 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String OPID 'get set' : 
+    System.String ERROR_CODE 'get set' : 
+    System.String ERROR_MSG 'get set' : 
+    System.String DateTime 'get set' : 
+    System.String MSN 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String OPTION3 'get set' : 
+    System.String OPTION4 'get set' : 
+    System.String OPTION5 'get set' : 
+    System.Collections.Generic.List`1[IMSDLL.ItemData] ITEMlIST 'get set' : 
+  Methods:
+    get_INT_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_INT_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOOLID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOOLID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ERROR_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_ERROR_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ERROR_MSG(): PrivateScope, Public, HideBySig, SpecialName
+    set_ERROR_MSG(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION3(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION3(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION4(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION4(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION5(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION5(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ITEMlIST(): PrivateScope, Public, HideBySig, SpecialName
+    set_ITEMlIST(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_DATA_OUT_Step4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String RESULT 'get set' : 
+    System.String Fail_Msg 'get set' : 
+    System.String RETEST_TIMES 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String DateTime 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RESULT(): PrivateScope, Public, HideBySig, SpecialName
+    set_RESULT(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Fail_Msg(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fail_Msg(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RETEST_TIMES(): PrivateScope, Public, HideBySig, SpecialName
+    set_RETEST_TIMES(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_KIDODATA_IN_Step1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String INT_TYPE 'get set' : 
+    System.String TOOLID 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    System.String SN 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String OPID 'get set' : 
+    System.String APName 'get set' : 
+    System.String APVersion 'get set' : 
+    System.String OPTION1 'get set' : 
+    System.String OPTION2 'get set' : 
+    System.String OPTION3 'get set' : 
+    System.String OPTION4 'get set' : 
+    System.String OPTION5 'get set' : 
+    System.String OPTION6 'get set' : 
+    System.String OPTION7 'get set' : 
+    System.String OPTION8 'get set' : 
+    System.String TDATETIME 'get set' : 
+    System.Collections.Generic.List`1[IMSDLL.ReqItemData] REQITEMlIST 'get set' : 
+  Methods:
+    get_INT_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_INT_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOOLID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOOLID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APName(): PrivateScope, Public, HideBySig, SpecialName
+    set_APName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_APVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_APVersion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION1(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION2(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION3(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION3(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION4(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION4(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION5(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION5(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION6(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION6(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION7(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION7(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPTION8(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPTION8(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TDATETIME(): PrivateScope, Public, HideBySig, SpecialName
+    set_TDATETIME(String): PrivateScope, Public, HideBySig, SpecialName
+    get_REQITEMlIST(): PrivateScope, Public, HideBySig, SpecialName
+    set_REQITEMlIST(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.BOE_MesToKidoData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String IMEI1 'get set' : 
+    System.String IMEI2 'get set' : 
+    System.String MSN 'get set' : 
+    System.String BTMac 'get set' : 
+    System.String MEID 'get set' : 
+    System.String WifiMac1 'get set' : 
+    System.String WifiMac2 'get set' : 
+    System.String HARD_CODE 'get set' : 
+    System.String QR_CODE 'get set' : 
+    System.String TOKEN 'get set' : 
+    System.String EID 'get set' : 
+    System.String VER 'get set' : 
+    System.String Memory 'get set' : 
+    System.String SoftWare 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI1(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI2(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BTMac(): PrivateScope, Public, HideBySig, SpecialName
+    set_BTMac(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MEID(): PrivateScope, Public, HideBySig, SpecialName
+    set_MEID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac1(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac2(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HARD_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_HARD_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_QR_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_QR_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOKEN(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOKEN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EID(): PrivateScope, Public, HideBySig, SpecialName
+    set_EID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_VER(): PrivateScope, Public, HideBySig, SpecialName
+    set_VER(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Memory(): PrivateScope, Public, HideBySig, SpecialName
+    set_Memory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SoftWare(): PrivateScope, Public, HideBySig, SpecialName
+    set_SoftWare(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ETM_Laser_Request: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String TaskID 'get set' : 
+    System.String LineNo 'get set' : 
+    System.String Section 'get set' : 
+    System.String StationNo 'get set' : 
+    System.String LabelType 'get set' : 
+    System.String EQPCode 'get set' : 
+    System.String SN 'get set' : 
+    System.String LADateTime 'get set' : 
+  Methods:
+    get_TaskID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TaskID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LineNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_LineNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Section(): PrivateScope, Public, HideBySig, SpecialName
+    set_Section(String): PrivateScope, Public, HideBySig, SpecialName
+    get_StationNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_StationNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LabelType(): PrivateScope, Public, HideBySig, SpecialName
+    set_LabelType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EQPCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_EQPCode(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LADateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_LADateTime(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ETM_Laser_Request_Return: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String TaskID 'get set' : 
+    System.String SN 'get set' : 
+    System.String PartNo 'get set' : 
+    System.String IsOK 'get set' : 
+    System.Collections.Generic.List`1[IMSDLL.MSNData] ParamList 'get set' : 
+    System.String Message 'get set' : 
+  Methods:
+    get_TaskID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TaskID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PartNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_PartNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IsOK(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsOK(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ParamList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParamList(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    set_Message(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.MSNData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Pname 'get set' : 
+    System.String Pvalue 'get set' : 
+  Methods:
+    get_Pname(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pname(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Pvalue(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pvalue(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ETM_Laser_TrackOut: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String TaskID 'get set' : 
+    System.String LineNo 'get set' : 
+    System.String Section 'get set' : 
+    System.String StationNo 'get set' : 
+    System.String EQPCode 'get set' : 
+    System.String SN 'get set' : 
+    System.String MSN 'get set' : 
+    System.String PrintResult 'get set' : 
+    System.String ParamList 'get set' : 
+    System.String LADateTime 'get set' : 
+    System.String OPID 'get set' : 
+  Methods:
+    get_TaskID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TaskID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LineNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_LineNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Section(): PrivateScope, Public, HideBySig, SpecialName
+    set_Section(String): PrivateScope, Public, HideBySig, SpecialName
+    get_StationNo(): PrivateScope, Public, HideBySig, SpecialName
+    set_StationNo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EQPCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_EQPCode(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PrintResult(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrintResult(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ParamList(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParamList(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LADateTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_LADateTime(String): PrivateScope, Public, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ETM_Laser_TrackOut_Return: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String TaskID 'get set' : 
+    System.String SN 'get set' : 
+    System.String Result 'get set' : 
+    System.String Message 'get set' : 
+  Methods:
+    get_TaskID(): PrivateScope, Public, HideBySig, SpecialName
+    set_TaskID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Result(): PrivateScope, Public, HideBySig, SpecialName
+    set_Result(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    set_Message(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.LoginInfo: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.String Equipment 'get set' : 
+    System.String LINE 'get set' : 
+    System.String STATION 'get set' : 
+    System.String OPID 'get set' : 
+    System.String IMEI_QTY 'get set' : 
+    System.String MEID_QTY 'get set' : 
+    System.String WFMAC_QTY 'get set' : 
+    System.String BTMAC_QTY 'get set' : 
+    System.String MSN_QTY 'get set' : 
+    System.String HARDCODE_QTY 'get set' : 
+    System.String QRCODE_QTY 'get set' : 
+    System.String Model 'get set' : 
+    Boolean IsPrint 'get set' : 
+    System.String PrintTem 'get set' : 
+    System.String PrintTemQty 'get set' : 
+    System.String ItemOP 'get set' : 
+    System.String IMEI1 'get set' : 
+    System.String IMEI2 'get set' : 
+    System.String MSN 'get set' : 
+    System.String MEID 'get set' : 
+    System.String BTMAC 'get set' : 
+    System.String WFMAC1 'get set' : 
+    System.String WFMAC2 'get set' : 
+    System.String ServiceUrl 'get set' : 
+    System.String LaserServiceUrl 'get set' : 
+    System.String PrintParam1 'get set' : 
+    System.String PrintParam2 'get set' : 
+    System.String PrintParam3 'get set' : 
+    System.String PrintParam4 'get set' : 
+    System.String PrintParam5 'get set' : 
+    System.String PrintParam6 'get set' : 
+    System.String PrintParam7 'get set' : 
+    System.String PrintParam8 'get set' : 
+    System.String SN_TYPE 'get set' : 
+    Boolean IsWrite 'get set' : 
+    Boolean CheckMemery 'get set' : 
+  Methods:
+    get_Equipment(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Equipment(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LINE(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_LINE(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_STATION(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_STATION(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_OPID(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_OPID(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IMEI_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_IMEI_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MEID_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_MEID_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_WFMAC_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_WFMAC_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BTMAC_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_BTMAC_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MSN_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_MSN_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HARDCODE_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_HARDCODE_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_QRCODE_QTY(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_QRCODE_QTY(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Model(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Model(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsPrint(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_IsPrint(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintTem(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintTem(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintTemQty(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintTemQty(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ItemOP(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_ItemOP(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IMEI1(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_IMEI1(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IMEI2(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_IMEI2(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MEID(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_MEID(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_BTMAC(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_BTMAC(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_WFMAC1(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_WFMAC1(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_WFMAC2(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_WFMAC2(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ServiceUrl(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_ServiceUrl(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LaserServiceUrl(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_LaserServiceUrl(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam1(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam1(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam2(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam2(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam3(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam3(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam4(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam4(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam5(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam5(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam6(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam6(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam7(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam7(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_PrintParam8(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_PrintParam8(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SN_TYPE(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_SN_TYPE(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsWrite(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_IsWrite(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CheckMemery(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_CheckMemery(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+Class IMSDLL.BOE_MesToTDData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SN 'get set' : 
+    System.String IMEI1 'get set' : 
+    System.String IMEI2 'get set' : 
+    System.String MSN 'get set' : 
+    System.String BTMac 'get set' : 
+    System.String MEID 'get set' : 
+    System.String WifiMac1 'get set' : 
+    System.String WifiMac2 'get set' : 
+    System.String HARD_CODE 'get set' : 
+    System.String QR_CODE 'get set' : 
+    System.String TOKEN 'get set' : 
+    System.String EID 'get set' : 
+    System.String VER 'get set' : 
+    System.String Memory 'get set' : 
+    System.String SoftWare 'get set' : 
+  Methods:
+    get_SN(): PrivateScope, Public, HideBySig, SpecialName
+    set_SN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI1(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IMEI2(): PrivateScope, Public, HideBySig, SpecialName
+    set_IMEI2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MSN(): PrivateScope, Public, HideBySig, SpecialName
+    set_MSN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BTMac(): PrivateScope, Public, HideBySig, SpecialName
+    set_BTMac(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MEID(): PrivateScope, Public, HideBySig, SpecialName
+    set_MEID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac1(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac1(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WifiMac2(): PrivateScope, Public, HideBySig, SpecialName
+    set_WifiMac2(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HARD_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_HARD_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_QR_CODE(): PrivateScope, Public, HideBySig, SpecialName
+    set_QR_CODE(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TOKEN(): PrivateScope, Public, HideBySig, SpecialName
+    set_TOKEN(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EID(): PrivateScope, Public, HideBySig, SpecialName
+    set_EID(String): PrivateScope, Public, HideBySig, SpecialName
+    get_VER(): PrivateScope, Public, HideBySig, SpecialName
+    set_VER(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Memory(): PrivateScope, Public, HideBySig, SpecialName
+    set_Memory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SoftWare(): PrivateScope, Public, HideBySig, SpecialName
+    set_SoftWare(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ItemData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String key_type 'get set' : 
+    System.String key_qty 'get set' : 
+    System.Collections.Generic.List`1[IMSDLL.ValueData] keylist 'get set' : 
+  Methods:
+    get_key_type(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_type(String): PrivateScope, Public, HideBySig, SpecialName
+    get_key_qty(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_qty(String): PrivateScope, Public, HideBySig, SpecialName
+    get_keylist(): PrivateScope, Public, HideBySig, SpecialName
+    set_keylist(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ModelSet: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ItemModel 'get set' : 
+  Methods:
+    get_ItemModel(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemModel(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ValueData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String kname 'get set' : 
+    System.String kvalue 'get set' : 
+  Methods:
+    get_kname(): PrivateScope, Public, HideBySig, SpecialName
+    set_kname(String): PrivateScope, Public, HideBySig, SpecialName
+    get_kvalue(): PrivateScope, Public, HideBySig, SpecialName
+    set_kvalue(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.ReqItemData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String key_type 'get set' : 
+    System.String key_qty 'get set' : 
+    System.String key_reqtype 'get set' : 
+  Methods:
+    get_key_type(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_type(String): PrivateScope, Public, HideBySig, SpecialName
+    get_key_qty(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_qty(String): PrivateScope, Public, HideBySig, SpecialName
+    get_key_reqtype(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_reqtype(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.WriteValueData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String key_type 'get set' : 
+    System.String key_qty 'get set' : 
+  Methods:
+    get_key_type(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_type(String): PrivateScope, Public, HideBySig, SpecialName
+    get_key_qty(): PrivateScope, Public, HideBySig, SpecialName
+    set_key_qty(String): PrivateScope, Public, HideBySig, SpecialName
+Class IMSDLL.IniFile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String FileName 'get set' : 
+  Methods:
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileName(String): PrivateScope, Public, HideBySig, SpecialName
+    ReadInt(String, String, Int32): PrivateScope, Public, HideBySig
+    ReadString(String, String, String): PrivateScope, Public, HideBySig
+    WriteInt(String, String, Int32): PrivateScope, Public, HideBySig
+    WriteString(String, String, String): PrivateScope, Public, HideBySig
+    DeleteSection(String): PrivateScope, Public, HideBySig
+    DeleteAllSection(): PrivateScope, Public, HideBySig
+    IniReadValue(String, String): PrivateScope, Public, HideBySig
+    IniWriteValue(String, String, String): PrivateScope, Public, HideBySig
+Class IMSDLL.Serialization: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    JsonToObject(String): PrivateScope, Public, Static, HideBySig
+    ObjectToJSON(T): PrivateScope, Public, Static, HideBySig
+Interface IMSDLL.Tool_Laser.IMES_TO_LD: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    HelloWcf(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    HelloWcfAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDbDateTime(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDbDateTimeAsync(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_EQPStatus_Upload(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_EQPStatus_UploadAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_Laser_Request(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_Laser_RequestAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_Laser_TrackOut(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_Laser_TrackOutAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface IMSDLL.Tool_Laser.IMES_TO_LDChannel: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    IMSDLL.Tool_Laser.IMES_TO_LD
+    System.ServiceModel.IClientChannel
+    System.ServiceModel.IContextChannel
+    System.ServiceModel.Channels.IChannel
+    System.ServiceModel.ICommunicationObject
+    System.ServiceModel.IExtensibleObject`1[System.ServiceModel.IContextChannel]
+    System.IDisposable
+Class IMSDLL.Tool_Laser.MES_TO_LDClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ServiceModel.ClientBase`1[IMSDLL.Tool_Laser.IMES_TO_LD]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.ServiceModel.EndpointAddress): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.ServiceModel.Channels.Binding, System.ServiceModel.EndpointAddress): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    IMSDLL.Tool_Laser.IMES_TO_LD
+  Methods:
+    HelloWcf(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    HelloWcfAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetDbDateTime(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetDbDateTimeAsync(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_EQPStatus_Upload(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_EQPStatus_UploadAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_Laser_Request(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_Laser_RequestAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_Laser_TrackOut(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_Laser_TrackOutAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    HelloWcf(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    HelloWcfAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_COMMON_IN(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_COMMON_INAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_COMMON_OUT(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_COMMON_OUTAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_IN(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_INAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_OUT(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_OUTAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_IN_NEW(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BOE_DATA_IN_NEWAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_BoxInfo_Request(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ETM_BoxInfo_RequestAsync(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface IMSDLL.IMES_TO_TOOL.IMES_TO_TOOLChannel: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL
+    System.ServiceModel.IClientChannel
+    System.ServiceModel.IContextChannel
+    System.ServiceModel.Channels.IChannel
+    System.ServiceModel.ICommunicationObject
+    System.ServiceModel.IExtensibleObject`1[System.ServiceModel.IContextChannel]
+    System.IDisposable
+Class IMSDLL.IMES_TO_TOOL.MES_TO_TOOLClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ServiceModel.ClientBase`1[IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.ServiceModel.EndpointAddress): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.ServiceModel.Channels.Binding, System.ServiceModel.EndpointAddress): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    IMSDLL.IMES_TO_TOOL.IMES_TO_TOOL
+  Methods:
+    HelloWcf(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    HelloWcfAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_COMMON_IN(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_COMMON_INAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_COMMON_OUT(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_COMMON_OUTAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_IN(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_INAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_OUT(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_OUTAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_IN_NEW(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    BOE_DATA_IN_NEWAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_BoxInfo_Request(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ETM_BoxInfo_RequestAsync(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask

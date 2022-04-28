@@ -1,0 +1,540 @@
+【2022-04-25 10:31:58】登录信息有错：产线不能为空
+【2022-04-25 10:41:56】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 10:41:56】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 11:01:21】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 11:01:22】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:31:33】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:31:33】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:31:48】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:31:48】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:33:04】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:33:04】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:37:02】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:37:02】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:40:54】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:40:54】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:48:29】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:48:29】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:53:58】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:53:59】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:54:18】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:54:18】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 13:54:26】GetInData返回{
+  "SN": "11111111",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 13:54:26】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:07:06】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:07:06】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:08:00】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:08:00】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:08:57】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:08:57】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:09:16】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:09:16】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:10:36】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:10:36】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:13:15】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:13:16】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:21:30】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:21:31】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:21:49】ErrorMsg:
+【2022-04-25 14:21:49】ErrorMsg:
+【2022-04-25 14:21:49】BOE_DATA_OUT_Step4:{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "不良代码:【ER10001】在MES系统不存在，请维护不良代码信息",
+  "RETEST_TIMES": null,
+  "OPTION1": null,
+  "DateTime": null
+}
+【2022-04-25 14:21:49】不良代码:【ER10001】在MES系统不存在，请维护不良代码信息
+【2022-04-25 14:24:12】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:24:12】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:24:16】ErrorMsg:
+【2022-04-25 14:24:16】ErrorMsg:
+【2022-04-25 14:24:16】BOE_DATA_OUT_Step4:{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "不良代码:【ER10001】在MES系统不存在，请维护不良代码信息",
+  "RETEST_TIMES": null,
+  "OPTION1": null,
+  "DateTime": null
+}
+【2022-04-25 14:24:16】不良代码:【ER10001】在MES系统不存在，请维护不良代码信息
+【2022-04-25 14:24:28】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 14:24:28】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 14:24:31】ErrorMsg:
+【2022-04-25 14:24:31】ErrorMsg:
+【2022-04-25 14:24:31】BOE_DATA_OUT_Step4:{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "不良代码:【ER10001】在MES系统不存在，请维护不良代码信息",
+  "RETEST_TIMES": null,
+  "OPTION1": null,
+  "DateTime": null
+}
+【2022-04-25 14:24:31】不良代码:【ER10001】在MES系统不存在，请维护不良代码信息
+【2022-04-25 15:25:04】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 15:25:04】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 15:25:06】ErrorMsg:
+【2022-04-25 15:25:06】ErrorMsg:
+【2022-04-25 15:25:06】BOE_DATA_OUT_Step4:{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "不良代码:【ER10001】在MES系统不存在，请维护不良代码信息",
+  "RETEST_TIMES": null,
+  "OPTION1": null,
+  "DateTime": null
+}
+【2022-04-25 15:25:06】不良代码:【ER10001】在MES系统不存在，请维护不良代码信息
+【2022-04-25 15:26:37】GetInData返回{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "TOOL设置的SN在MES系统不存在，请维护产品序号信息",
+  "SW_Version": null,
+  "WO": null,
+  "Model": null,
+  "MSN": null,
+  "RAM": null,
+  "EMMC": null,
+  "OPTION1": null,
+  "OPTION2": null,
+  "OPTION3": null,
+  "OPTION4": null,
+  "OPTION5": null,
+  "OPTION6": null,
+  "OPTION7": null,
+  "OPTION8": null,
+  "TDATETIME": null,
+  "ITEMlIST": null
+}
+【2022-04-25 15:26:37】BOE_DATA_IN 报错BOE_DATA_IN执行失败：TOOL设置的SN在MES系统不存在，请维护产品序号信息
+【2022-04-25 15:26:39】ErrorMsg:
+【2022-04-25 15:26:39】ErrorMsg:
+【2022-04-25 15:26:39】BOE_DATA_OUT_Step4:{
+  "SN": "123456789",
+  "RESULT": "FAIL",
+  "Fail_Msg": "不良代码:【ER10001】在MES系统不存在，请维护不良代码信息",
+  "RETEST_TIMES": null,
+  "OPTION1": null,
+  "DateTime": null
+}
+【2022-04-25 15:26:39】不良代码:【ER10001】在MES系统不存在，请维护不良代码信息

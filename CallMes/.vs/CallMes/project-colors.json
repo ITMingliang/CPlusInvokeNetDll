@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f429180a-3d39-4814-bf72-ffed283bb7af": {
+      "ProjectGuid": "f429180a-3d39-4814-bf72-ffed283bb7af",
+      "DisplayName": "CallMes",
+      "ColorIndex": 0
+    },
+    "bc176380-4660-4ed4-b823-88bbe65f858d": {
+      "ProjectGuid": "bc176380-4660-4ed4-b823-88bbe65f858d",
+      "DisplayName": "MesDLL",
+      "ColorIndex": 1
+    },
+    "edc4f673-65ab-4be2-bad8-a5416267c902": {
+      "ProjectGuid": "edc4f673-65ab-4be2-bad8-a5416267c902",
+      "DisplayName": "CallTest",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

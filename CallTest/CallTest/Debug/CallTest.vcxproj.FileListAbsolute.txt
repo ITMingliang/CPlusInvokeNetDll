@@ -1,0 +1,3 @@
+G:\CallMesTest\CallTest\CallTest\Debug\CallTest.vcxproj.SuggestedBindingRedirects.cache
+G:\CallMesTest\CallTest\CallTest\Debug\CallTest.vcxproj.CopyComplete
+G:\CallMesTest\CallTest\CallTest\Debug\CallTest.vcxproj.AssemblyReference.cache

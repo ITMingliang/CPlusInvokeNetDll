@@ -1,0 +1,2 @@
+G:\CallMesTest\CallMes\CallMes\x64\Debug\CallMes.vcxproj.AssemblyReference.cache
+G:\CallMesTest\CallMes\CallMes\x64\Debug\CallMes.vcxproj.CopyComplete
